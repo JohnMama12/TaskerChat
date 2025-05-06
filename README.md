@@ -11,7 +11,7 @@ You can ask the Assistant help with:
  - **General functions:**
 	 - Retrieve current date and time
 	 - Get both your local weather (IP address based) or the weather of any given location on earth or longitude or latitude (Doesn't work as expected yet)
-	 - Run shell commands for you
+	 - Run shell commands for you (Note: there are blacklisted commands that are enabled by default which will block the AI from executing dangerous commands, while they can be edited, you risk comprmising your computer by letting it run potentially dangerous commands on accident)
 ## Setup
 TaskerChat Needs Google Generative AI Installed and Piper (Optional for TTS)
 	to Install Google Generative AI:
@@ -40,7 +40,9 @@ Ensure to also download the model's corresponding .json file, by default it will
 
     voice_path  =  "model_name.onnx"  # set to desired voice model, the .onnx.json file must also exist in the same directory
 ## Usage
-By default TTS and the running of shell commands are disabled, to enable or disable them you can run `/help` or `/?`to see list of commands:
+Run by excuting python:
+	`python tool_use_gemini_API.py`
+By default TTS and the execution of shell commands are disabled, to enable them you can see the help section with `/help` or `/?` to list available commands:
 
     > /help
     Options:
