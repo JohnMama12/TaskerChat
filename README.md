@@ -1,5 +1,6 @@
 ## **TaskerChat**
-a Gemma 3 Based AI assistant with Piper TTS that can execute various functions.
+a Gemma 3 Based AI assistant with Piper TTS that can execute various functions. (Function feature based on [philschmid/gemini-samples/blob/main/examples/gemma-function-calling.ipynb](https://github.com/philschmid/gemini-samples/blob/main/examples/gemma-function-calling.ipynb)
+
 You can ask the Assistant help with:
  - **Mathematical functions:**
 	 - Add, Subtract and Multiply any given amount of numbers or decimals.
