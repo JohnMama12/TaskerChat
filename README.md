@@ -1,4 +1,6 @@
 ## **TaskerChat**
+<img src="TaskerChat_Logo2.png" width="478.5" height="185">
+
 a Gemma 3 Based AI assistant with Piper TTS that can execute various functions. (Function feature based on [philschmid/gemini-samples/blob/main/examples/gemma-function-calling.ipynb](https://github.com/philschmid/gemini-samples/blob/main/examples/gemma-function-calling.ipynb)
 
 You can ask the Assistant help with:
