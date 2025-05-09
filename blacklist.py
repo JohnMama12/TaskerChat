@@ -7,7 +7,7 @@ BLACKLIST = [ # Change at your own risk, or  the AI could cause irreversable dam
     r"shutdown",
     r"reboot",
     r"halt",
-    r"poweroff",
+    r"poweroff"
     r"chmod\s+000",
     r"chown\s+.*nobody",
     r"mv\s+/bin",
