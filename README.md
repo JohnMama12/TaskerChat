@@ -15,11 +15,11 @@ You can ask the Assistant help with:
 	 - Get both your local weather (IP address based) or the weather of any given location on earth or longitude or latitude (Doesn't work as expected yet)
 	 - Run shell commands for you (Note: there are blacklisted commands that are enabled by default which will block the AI from executing dangerous commands, while they can be edited, you risk comprmising your computer by letting it run potentially dangerous commands on accident)
 ## Setup
-TaskerChat Needs Google Generative AI Installed and Piper (Optional for TTS)
-	to Install Google Generative AI:
+TaskerChat Needs Google Generative AI Installed and Piper + playaudio (Optional for TTS)
+	to dependencies:
 		
 
-    pip install google-genai
+    pip install google-genai playaudio
  Then, if on Windows set the `GOOGLE_API_KEY` to your Google Cloud  API key (Free version can still work):
  
 
