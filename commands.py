@@ -15,6 +15,8 @@ def multiply(*args):
 def subtract(a,*args):
 
     return a - sum(args)
+def divide(a,b):
+    return a / b
     
 def rect_perimeter(l,w):
     return (2 * (l+w))
