@@ -38,7 +38,7 @@ You can listen to Voice samples here: https://rhasspy.github.io/piper-samples/
 by default TaskerChat uses the `en_US-hfc_male` voice.
 Once you find a voice you like you can download the model's .onnx from here:
 https://github.com/rhasspy/piper/blob/master/VOICES.md
-Ensure to also download the model's corresponding .json file, by default it will open a new tab on your browser with the .json file. Copy it and paste it into a new json file, ensure it ends in `.onnx.json` . Once you get both files, copy them to the TaskerChat directory. Then finally change the default voice model:
+Ensure to also download the model's corresponding .json file, by default it will open a new tab on your browser with the .json file. Copy it and paste it into a new json file, ensure it ends in `.onnx.json` . Once you get both files, copy them to the TaskerChat directory. Then finally change the default voice model in tts.py:
 
     voice_path  =  "model_name.onnx"  # set to desired voice model, the .onnx.json file must also exist in the same directory
 ## Usage
