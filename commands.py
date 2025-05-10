@@ -4,8 +4,8 @@ import requests
 import math
 def add(*args):
     return sum(args)
-def divide(*a,b):
-    return round(a/b)
+def divide(a,b):
+    return round(a/b,3)
     
 def multiply(*args):
     total = 1
@@ -15,8 +15,6 @@ def multiply(*args):
 def subtract(a,*args):
 
     return a - sum(args)
-def divide(a,b):
-    return a / b
     
 def rect_perimeter(l,w):
     return (2 * (l+w))
